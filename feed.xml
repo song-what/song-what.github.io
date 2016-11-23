@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Now or Never</title>
+    <description>一个再读本科的本科在读生的生活。</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 23 Nov 2016 15:35:04 +0100</pubDate>
+    <lastBuildDate>Wed, 23 Nov 2016 15:35:04 +0100</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>建设中</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;重启试试，多喝水&lt;/h1&gt;
+</description>
+        <pubDate>Mon, 18 Apr 2016 23:08:48 +0200</pubDate>
+        <link>/jekyll/update/2016/04/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/jekyll/update/2016/04/18/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Applescript小试水</title>
+        <description>&lt;p&gt;每天下班的时候，会手动关闭一系列办公软件，然后被电脑回家，而自己再接触mac后，也放弃了关机的习惯。因此第二天上班都需要手动打开一系列软件，于是很想试试有没有办法写一个小脚本，让这些需要的程序自动运行。&lt;/p&gt;
+
+&lt;p&gt;浏览了很多网页后，使用Applescript写出了满足自己需求的小程序。通过Spotlight键入Applescript打开编辑器，使用&lt;code class=&quot;highlighter-rouge&quot;&gt;tell&lt;/code&gt;命令完成需求。
+代码如下:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tell application &quot;Slack&quot;
+	activate
+end tell
+
+tell application &quot;Mail&quot;
+	activate
+end tell
+
+tell application &quot;Calendar&quot;
+	activate
+end tell
+
+tell application &quot;Google Chrome&quot;
+	activate
+	open location &quot;https://xxxx.com&quot;
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;最后导出为程序，保存为 GoToWork.app。&lt;/p&gt;
+
+&lt;p&gt;自定义app图标:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;制作一个icns图像文件，可以自己制作png格式，然后通过在线转换器转换为icns格式。命名为 applets.icns。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;右击（两指）GoToWork.app展示内容，替换 Contents/Resources 中的applets.icns文件。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一个小程序，就这样完成啦！！🎉🎉🎉&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Apr 2016 23:08:48 +0200</pubDate>
+        <link>/jekyll/update/2016/04/18/welcome-to-jekyll-2.html</link>
+        <guid isPermaLink="true">/jekyll/update/2016/04/18/welcome-to-jekyll-2.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
